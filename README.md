@@ -5,3 +5,6 @@ Just execute Bypass.ps1 with normal privileges and you should be able to bypass 
 
 Tested on Windows10/2019/2016.
 
+References:- 
+https://book.hacktricks.xyz/windows/windows-local-privilege-escalation
+
